@@ -16,7 +16,7 @@
 .navbar-wrapper {
   font-family: 'Righteous', cursive;
   max-width: 100vw;
-  border: 3px solid gray;
+  border-bottom: 3px solid gray;
   margin: 0;
   padding: 0.5em;
   padding-left: 1.5em;
@@ -26,8 +26,8 @@
 .authentication-options {
   display: flex;
   margin-left: auto;
-  margin-right: 5em;
-  gap: 2.5em;
+  margin-right: 5%;
+  gap: 1.5em;
 }
 .home-link {
   font-size: 1.5em;
@@ -35,6 +35,7 @@
 }
 .sign-in, .sign-up {
     color: whitesmoke;
+    font-size: clamp(0.7em, 1.5vw, 1.2em);
 }
 .sign-in, .sign-up,
 .home-link {
