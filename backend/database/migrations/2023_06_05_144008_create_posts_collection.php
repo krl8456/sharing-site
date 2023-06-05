@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $collection) {
             $collection->index('_id');
             $collection->string('author');
-            $collection->string('title');
             $collection->text('body');
             $collection->string('category');
             $collection->timestamp('Created_at');
